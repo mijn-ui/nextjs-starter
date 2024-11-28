@@ -5,7 +5,6 @@ This is a starter template to help you quickly build apps using MijnUI Component
 ## Features
 
 - **React Icons:** Add icons effortlessly.
-- **Radix UI Primitives:** Build accessible UI elements.
 - **Tailwind CSS Class Sorting:** Keeps your styles tidy.
 - **ESLint v9:** Spot and fix issues as you code.
 - **Prettier Integration:** Import sorting, Tailwind class sorting, and works with ESLint.
@@ -16,7 +15,7 @@ This is a starter template to help you quickly build apps using MijnUI Component
 1. Clone the template:
 
 ```bash
-  git clone https://github.com/mijn-ui/nextjs-template
+  git clone -b npm https://github.com/mijn-ui/nextjs-template
   cd nextjs-template
 ```
 
