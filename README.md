@@ -1,6 +1,6 @@
 # 🚀 Next.js 15 Template for MijnUI Components
 
-This is a starter template to help you quickly build apps using MijnUI Components.s
+This is a starter template to help you quickly build apps using MijnUI Components.
 
 ## Features
 
