@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react"
 import { Button, ButtonProps } from "@mijn-ui/react-button"
+import { MoonIcon, SunIcon } from "@/components/icons"
 import { useTheme } from "next-themes"
-import { FiMoon, FiSun } from "react-icons/fi"
 
 /* -------------------------------------------------------------------------- */
 
@@ -18,14 +18,14 @@ const ThemeToggler = ({ ...props }: ButtonProps) => {
   if (resolvedTheme === "dark") {
     return (
       <Button onClick={() => setTheme("light")} {...props}>
-        <FiSun />
+        <SunIcon />
       </Button>
     )
   }
   if (resolvedTheme === "light") {
     return (
       <Button onClick={() => setTheme("dark")} {...props}>
-        <FiMoon />
+        <MoonIcon />
       </Button>
     )
   }
